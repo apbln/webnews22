@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5bd9d2-1e6f-464d-b32a-8f46d4cc26c8" name="Default Changelist" comment="" />
+    <list default="true" id="0a5bd9d2-1e6f-464d-b32a-8f46d4cc26c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +41,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1530" />
-          <entry key="html" value="741" />
+          <entry key="css" value="1758" />
+          <entry key="html" value="753" />
           <entry key="js" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1530" />
-          <entry key="HTML" value="741" />
+          <entry key="CSS" value="1758" />
+          <entry key="HTML" value="753" />
           <entry key="JavaScript" value="68" />
         </counts>
       </usages-collector>
@@ -59,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="30" />
+            <state relative-caret-position="394">
+              <caret line="163" column="10" lean-forward="true" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -71,8 +75,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4078">
-              <caret line="292" column="8" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
+            <state relative-caret-position="493">
+              <caret line="233" column="14" selection-start-line="233" selection-start-column="5" selection-end-line="233" selection-end-column="14" />
+              <folding>
+                <element signature="e#10961#11359#0" />
+                <element signature="e#11452#11661#0" />
+                <element signature="e#11677#11847#0" />
+                <element signature="e#11855#11882#0" />
+                <element signature="e#11897#13256#0" />
+                <element signature="e#13278#14976#0" />
+                <element signature="e#14999#15383#0" />
+                <element signature="e#15384#15542#0" />
+                <element signature="e#15543#15698#0" />
+                <element signature="e#15699#15849#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,13 +125,14 @@
       <find>tag</find>
       <find>text</find>
       <find>mySlides</find>
-      <find>.text</find>
       <find>light</find>
       <find>.slideshow-container</find>
       <find>.hero</find>
       <find>.hi</find>
       <find>text_column</find>
       <find>item</find>
+      <find>nav</find>
+      <find>.text</find>
     </findStrings>
     <replaceStrings>
       <replace>../images/</replace>
@@ -140,7 +157,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="363" />
     <option name="y" value="86" />
     <option name="width" value="1036" />
@@ -209,19 +226,19 @@
       <workItem from="1540499105675" duration="332000" />
       <workItem from="1540499488697" duration="1139000" />
       <workItem from="1540500895139" duration="1566000" />
-      <workItem from="1540502478518" duration="791000" />
+      <workItem from="1540502478518" duration="3076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45545000" />
+    <option name="totallyTimeSpent" value="47830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="363" y="86" width="1036" height="780" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3979849" />
-      <window_info active="true" id="Structure" order="1" side_tool="true" visible="true" weight="0.25512296" />
+      <window_info active="true" id="Structure" order="1" side_tool="true" visible="true" weight="0.13272922" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32991803" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -292,15 +309,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4078">
-          <caret line="292" column="8" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
+        <state relative-caret-position="493">
+          <caret line="233" column="14" selection-start-line="233" selection-start-column="5" selection-end-line="233" selection-end-column="14" />
+          <folding>
+            <element signature="e#10961#11359#0" />
+            <element signature="e#11452#11661#0" />
+            <element signature="e#11677#11847#0" />
+            <element signature="e#11855#11882#0" />
+            <element signature="e#11897#13256#0" />
+            <element signature="e#13278#14976#0" />
+            <element signature="e#14999#15383#0" />
+            <element signature="e#15384#15542#0" />
+            <element signature="e#15543#15698#0" />
+            <element signature="e#15699#15849#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="30" />
+        <state relative-caret-position="394">
+          <caret line="163" column="10" lean-forward="true" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
