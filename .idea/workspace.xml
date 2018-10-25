@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5bd9d2-1e6f-464d-b32a-8f46d4cc26c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/untitled2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/13358987_5eb1c82571.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016-07-02-Rezept-Kokos-Erdbeer-Eis-Carl-Tode-Göttingen-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016-07-02-Rezept-Kokos-Erdbeer-Eis-Carl-Tode-Göttingen-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/394-Eis-selber-machen-Rezepte-Eis-am-Stiel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/6e211e3da1bf2fd389eaafd3e0f4e329.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Cucumber-Gin-Tonic-Popsicles-featured-1000x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/DSC06384.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Eis-selber-machen-Kirschen-Limetten-Lutscher.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Eis_am_Stiel_Beeren-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Kashoggi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/NewYork-1000x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Veganes-Beeren-Mandel-Eis-am-Stiel-534x300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/like-social-heart-button-outline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/taiwan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slideshow.js" afterDir="false" />
-    </list>
+    <list default="true" id="0a5bd9d2-1e6f-464d-b32a-8f46d4cc26c8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,12 +209,12 @@
       <workItem from="1540499105675" duration="332000" />
       <workItem from="1540499488697" duration="1139000" />
       <workItem from="1540500895139" duration="1566000" />
-      <workItem from="1540502478518" duration="717000" />
+      <workItem from="1540502478518" duration="791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45471000" />
+    <option name="totallyTimeSpent" value="45545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="363" y="86" width="1036" height="780" extended-state="0" />
