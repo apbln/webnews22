@@ -14,9 +14,11 @@ body {
 	height: 1000px;
 	background-color: #FFFFFF;
 }
+
 /*********************************************************************
  							Navigation
  *********************************************************************/
+
 header {
 	width: 100%;
 	height: 5%;
@@ -53,33 +55,21 @@ nav ul li {
 	font-weight: bold;
 	transition: all 0.3s linear;
 }
-ul li a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-ul li:hover a {
-	color: #2C9AB7;
-}
-.hero_header {
-	color: #FFFFFF;
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	letter-spacing: 4px;
-	z-index: 1;
-	position: relative;
-	text-shadow: 2px 2px 4px #000000;
-}
 
 /*********************************************************************
  							Hero Section
  *********************************************************************/
 
-* {box-sizing:border-box}
+.container #hero div {
 
-/* Slideshow container */
+    position: relative;
+}
+ * {box-sizing:border-box}
+
+/**************************
+	Slideshow container
+ **************************/
+
 .slideshow-container {
 	max-width: 1000px;
 	position: relative;
@@ -90,20 +80,26 @@ ul li:hover a {
 	margin: 0 auto;
 }
 .mySlides  img{
+    position: relative;
 	box-shadow: 10px 10px 5px lightgray;
 	vertical-align: middle;
+	width:100%;
 }
-.mySlides > .text{
-	position: absolute;
+.mySlides.fade > .text{
+	position: absolute !important;
 	background: rgb(0, 0, 0); /* Fallback color */
 	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 	color: #f1f1f1;
 	width: 100%;
-	padding: 2%;
+    bottom: 0;
 
 }
 
-/* Next & previous buttons:  "<" ">" */
+/**************************
+Next & prev buttons:"<" ">"
+ **************************/
+
+/*<editor-fold desc="Vor- & Zurück-PfeilButtons bei Slider">*/
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -117,20 +113,30 @@ ul li:hover a {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
+/*****************************
+put "next button" to the right
+ *****************************/
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+/*****************************
+On hover, add a background color
+ with a little bit see-through
+*****************************/
 
-/* On hover, add a background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: lavender;
 	opacity: .4;
 }
+/*</editor-fold>*/
 
-/* Number text (1/3 etc) */
+/*****************************
+	Number text (1/3 etc)
+*****************************/
+
+/*<editor-fold desc="SlideNummerAnzeige">*/
 .numbertext {
   font-size: 12px;
   padding: 8px 12px;
@@ -139,8 +145,13 @@ ul li:hover a {
 	font-weight: bold;
 	color: #717070;
 }
+/*</editor-fold>*/
 
-/* The dots/bullets/indicators */
+/*****************************
+  The dots/bullets/indicators
+*****************************/
+
+/*<editor-fold desc="Punkte unter Slider">*/
 .dot {
   cursor:pointer;
   height: 13px;
@@ -155,8 +166,13 @@ ul li:hover a {
 .active, .dot:hover {
   background-color: #717171;
 }
+/*</editor-fold>*/
 
-/* Fading animation */
+/*****************************
+  Fading animation: Slides
+*****************************/
+
+/*<editor-fold desc="Animation bei Wechsel von Slides">*/
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2.5s;
@@ -173,14 +189,24 @@ ul li:hover a {
   from {opacity: .4}
   to {opacity: 1}
 }
-/* HeadLine im Slider*/
+/*</editor-fold>*/
+
+/*****************************
+    HeadLine im Slider
+*****************************/
+
+/*<editor-fold desc="Ueberschriften in Bilder vom Slider">*/
 a.headline { color: white;
 	text-decoration: none}
 
 a.headline:hover {text-decoration:underline;}
-/* text Headline*/
-.text {
+/*</editor-fold>*/
 
+/*****************************
+ 	 HeadLine: Text
+*****************************/
+
+.text {
 	height: auto;
 	color: #f2f2f2;
 	font-size: 15px;
@@ -189,7 +215,11 @@ a.headline:hover {text-decoration:underline;}
 	text-align: left;
 	margin-top: -12.5%;
 }
-/* --- Hinter Slider --- */
+
+/*****************************
+ hinter Slider: Farbwechsel
+*****************************/
+
 	.hero {
 		background-attachment: fixed !important;
 		background: #efefef;
@@ -210,11 +240,25 @@ a.headline:hover {text-decoration:underline;}
 		animation-iteration-count: infinite;
 
 	}
-	.container #hero div {
 
-		position: relative;
-	}
-/* --- Unter Slider --- */
+
+/*****************************
+     unter Slider: Text
+*****************************/
+
+/*<editor-fold desc="Text unter Slider">*/
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	z-index: 1;
+	position: relative;
+	text-shadow: 2px 2px 4px #000000;
+}
 	.light {
 		font-weight: bold;
 		color: #717070;
@@ -229,9 +273,85 @@ a.headline:hover {text-decoration:underline;}
 		text-shadow: 2px 2px 4px #000000;
 		padding-bottom: 10px;
 	}
+/*</editor-fold>*/
 
-	/* --- About Section --- */
-	.item2Text{
+/*********************************************************************
+                         mitte
+*********************************************************************/
+
+/*<editor-fold desc="grid & Trennlinien">*/
+.mitte {
+	display:grid;
+}
+
+hr {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 8px auto;
+	height: 0;
+	width: 100%;
+	max-height: 0;
+	font-size: 1px;
+	line-height: 0;
+	clear: both;
+	border: none;
+	border-top: 1px solid #aaaaaa;
+	border-bottom: 1px solid #ffffff;
+}
+/*</editor-fold>*/
+
+/*****************************		|-    |
+		item1 (links)				|-    |
+****************************		|-    | */
+
+/*<editor-fold desc="item1">*/
+aside {
+	width: 150px;
+	color: white;
+	float: left;
+
+}
+aside >h1 > a {
+	color: white;
+	text-decoration: none}
+
+aside > h1 > a:hover {text-decoration:underline;}
+
+aside ul {
+
+	list-style: none; /* Removes points infront of listelements. */
+	padding: 0;       /* Ohne Distanz (Punkt) vom Startpunkt links*/
+}
+
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #2C9AB7;
+}
+
+.item1 {
+
+	grid-row: 1 / 6;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	display: inline-block;
+	margin-top: -15px;
+	text-align: left;
+	background: -webkit-linear-gradient(top, #87e0fd 0%, #52bad5 40%,#05abe0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to top, #87e0fd 0%, #05abe0 40%,#52bad5 100%);
+}
+/*</editor-fold>*/
+
+/*****************************		|  ---|
+		item2(oben) 				|     |
+****************************		|     | */
+
+/*<editor-fold desc="item2">*/
+.item2Text{
 		width: 29%;
 		text-align: justify;
 		font-weight: lighter;
@@ -241,33 +361,28 @@ a.headline:hover {text-decoration:underline;}
 		color: #A3A3A3;
 	}
 
-	.hidden {
-		display: none;
-	}
-	aside {
-		width: 150px;
-		color: white;
-		float: left;
-
-	}
-aside >h1 > a {
-	color: white;
-	text-decoration: none}
-
-aside > h1 > a:hover {text-decoration:underline;}
-
-	aside ul {
-
-		list-style: none; /* Removes points infront of listelements. */
-		padding: 0;       /* Ohne Distanz (Punkt) vom Startpunkt links*/
-	}
+.item2 {
+	padding-left: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	text-align: center;
+	grid-row: 1 / 3;
+}
 
 /*
 .a.asideSub:hover {text-decoration:underline;}
 */
-	/* --- Gallery --- */
+/*</editor-fold>*/
 
-	.stats {
+/*****************************		|     |
+		item3(mitte rechts) 		|  ---|
+****************************		|  ---| */
+
+
+/*<editor-fold desc="JavaScriptZeug: von alte seite -> like buttons">*/
+.stats {
 		color: #717070;
 		margin-bottom: 5px;
 	}
@@ -304,55 +419,9 @@ aside > h1 > a:hover {text-decoration:underline;}
 		margin-left: 0px;
 		color: #A3A3A3;
 	}
+/*</editor-fold>*/
 
-	.wrapper {
-		display:grid;
-	}
-	.item1 {
-
-		grid-row: 1 / 6;
-		padding-left: 25px;
-		padding-right: 25px;
-		padding-top: 35px;
-		display: inline-block;
-		margin-top: -15px;
-		text-align: left;
-		background: -webkit-linear-gradient(top, #87e0fd 0%, #52bad5 40%,#05abe0 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to top, #87e0fd 0%, #05abe0 40%,#52bad5 100%);
-	}
-
-	hr {
-			display: block;
-			position: relative;
-			padding: 0;
-			margin: 8px auto;
-			height: 0;
-			width: 100%;
-			max-height: 0;
-			font-size: 1px;
-			line-height: 0;
-			clear: both;
-			border: none;
-			border-top: 1px solid #aaaaaa;
-			border-bottom: 1px solid #ffffff;
-		}
-	.item2 {
-		padding-left: 10%;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		background-color: #FFFFFF;
-		margin-top: 0px;
-		text-align: center;
-		grid-row: 1 / 3;
-	}
-
-	.item3 {grid-row: 3 / 6;
-	}
-
-/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+/*<editor-fold desc="item3">*/
 .leftcolumn {
 	float: left;
 	width: 35%;
@@ -418,11 +487,17 @@ aside > h1 > a:hover {text-decoration:underline;}
 	cursor: pointer;
 }
 
-/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
-/* News Section */
+.item3 {grid-row: 3 / 6;
+}
+/*</editor-fold>*/
+
+/*****************************
+     BIS HIER
+*****************************/
+
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/news.png);
+	background-image: url(../images/news.png) !important;
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -831,9 +906,7 @@ nav ul li {
 .column {
 	width: 100%;
 }
-	.text {
-		margin:0;
-	}
+
 }
 
 /* Small Desktops */
@@ -859,9 +932,6 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
-	.text {
-		font-size: 14px;
-	}
 
 }
 @-webkit-keyframes background_animation {
