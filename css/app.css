@@ -70,6 +70,7 @@ nav ul li {
 	Slideshow container
  **************************/
 
+/*<editor-fold desc="Slideshow-Container">*/
 .slideshow-container {
 	max-width: 1000px;
 	position: relative;
@@ -94,6 +95,7 @@ nav ul li {
     bottom: 0;
 
 }
+/*</editor-fold>*/
 
 /**************************
 Next & prev buttons:"<" ">"
@@ -440,11 +442,20 @@ ul li:hover a {
 }
 
 /* Fake image */
-.fakeimg {
-	background-color: #aaa;
+.columnBigImg .columnSmallImg .columnBanner {
+
 	width: 100%;
 	padding: 20px;
 }
+
+.columnBigImg{
+	max-width: 100%
+}
+
+.columnSmallImg{
+	height: 100px;
+}
+
 
 /* Add a card effect for articles */
 .card {

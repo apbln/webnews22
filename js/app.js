@@ -1,13 +1,14 @@
 // JavaScript Document app.js
-// @author Al Brown
+
 
 
 /*  Details View */ 
 
 // Get the modal
 var modal = document.getElementById("myModal");
+
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementsByClassName("cards");
+var img = document.getElementsByClassName("card");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 var i;
